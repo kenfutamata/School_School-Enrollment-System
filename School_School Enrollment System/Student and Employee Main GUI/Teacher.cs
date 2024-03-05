@@ -3,6 +3,7 @@ namespace School_School_Enrollment_System
     public partial class Teacher : Form
     {
         bool expandsidebar;
+        bool expanddropdown;
         public Teacher()
         {
             InitializeComponent();
@@ -38,8 +39,35 @@ namespace School_School_Enrollment_System
 
         private void menubutton_Click(object sender, EventArgs e)
         {
-            sidebartimer.Start(); 
+            sidebartimer.Start();
 
+        }
+
+        private void dropdowntimer_Tick(object sender, EventArgs e)
+        {
+            if (expanddropdown)
+            {
+                teachersloaddropdown.Height += 10;
+                if (teachersloaddropdown.Height == teachersloaddropdown.MaximumSize.Height)
+                {
+                    expanddropdown = false;
+                    dropdowntimer.Stop();
+                }
+            }
+            else
+            {
+                teachersloaddropdown.Height -= 10;
+                if (teachersloaddropdown.Height == teachersloaddropdown.MinimumSize.Height)
+                {
+                    expanddropdown = true;
+                    dropdowntimer.Stop();
+                }
+            }
+        }
+
+        private void teachersloadbutton_Click(object sender, EventArgs e)
+        {
+            dropdowntimer.Start(); 
         }
     }
 }
