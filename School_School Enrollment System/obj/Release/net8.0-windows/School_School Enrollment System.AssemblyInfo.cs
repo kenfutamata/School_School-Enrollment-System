@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("School_School Enrollment System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8f1e58f94b3f1204ca4bd5a26cd3d3a7df3807")]
 [assembly: System.Reflection.AssemblyProductAttribute("School_School Enrollment System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("School_School Enrollment System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

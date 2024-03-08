@@ -1,3 +1,5 @@
+using School_School_Enrollment_System.login_and_signup;
+
 namespace School_School_Enrollment_System
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace School_School_Enrollment_System
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Teacher());
+            Application.Run(new Login());
         }
     }
 }

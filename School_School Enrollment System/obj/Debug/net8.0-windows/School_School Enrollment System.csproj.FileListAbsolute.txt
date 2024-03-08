@@ -1,0 +1,24 @@
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\bin\Debug\net8.0-windows\School_School Enrollment System.exe
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\bin\Debug\net8.0-windows\School_School Enrollment System.deps.json
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\bin\Debug\net8.0-windows\School_School Enrollment System.runtimeconfig.json
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\bin\Debug\net8.0-windows\School_School Enrollment System.dll
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\bin\Debug\net8.0-windows\School_School Enrollment System.pdb
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.login_and_signup.Login.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.Properties.Resources.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.Principal.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.StudentMain.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.Teacher.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.csproj.GenerateResource.cache
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.AssemblyInfoInputs.cache
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.AssemblyInfo.cs
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.csproj.CoreCompileInputs.cache
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.sourcelink.json
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.dll
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\refint\School_School Enrollment System.dll
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.pdb
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School Enrollment System.genruntimeconfig.cache
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\ref\School_School Enrollment System.dll
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.login_and_signup.formtoask.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.login_and_signup.signupemployee.resources
+C:\Users\kenfu\Source\Repos\kenfutamata\School_School-Enrollment-System\School_School Enrollment System\obj\Debug\net8.0-windows\School_School_Enrollment_System.login_and_signup.signupstudent.resources

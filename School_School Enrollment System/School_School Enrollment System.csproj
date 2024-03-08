@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="login and signup\" />
     <Folder Include="Pictures and icons\" />
   </ItemGroup>
 
