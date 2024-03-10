@@ -16,5 +16,12 @@ namespace School_School_Enrollment_System.login_and_signup
         {
             InitializeComponent();
         }
+
+        private void loginlink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login lg = new Login();
+            lg.Show();
+            this.Hide(); 
+        }
     }
 }
