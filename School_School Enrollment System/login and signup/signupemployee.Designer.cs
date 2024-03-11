@@ -43,9 +43,9 @@
             lblincaseofemergency = new Label();
             label2 = new Label();
             lblemail = new Label();
-            textBox3 = new TextBox();
+            inputemail = new TextBox();
             lblconfirmpassword = new Label();
-            textBox2 = new TextBox();
+            inputconfirmpassword = new TextBox();
             lblpassword = new Label();
             passwordinput = new TextBox();
             inputidnumber = new TextBox();
@@ -55,7 +55,7 @@
             lblcurrentposition = new Label();
             inputcurrentposition = new ComboBox();
             lblgender = new Label();
-            comboBox1 = new ComboBox();
+            inputgender = new ComboBox();
             lblage = new Label();
             inputage = new TextBox();
             lblbirthplace = new Label();
@@ -64,8 +64,8 @@
             lblbirthdate = new Label();
             lblsuffix = new Label();
             lblmiddleinitial = new Label();
-            textBox1 = new TextBox();
-            Suffix = new ComboBox();
+            inputmiddleinitial = new TextBox();
+            inputsuffix = new ComboBox();
             lblfirstname = new Label();
             inputfirstname = new TextBox();
             lbllastname = new Label();
@@ -81,6 +81,7 @@
             submitbutton.TabIndex = 85;
             submitbutton.Text = "Submit";
             submitbutton.UseVisualStyleBackColor = true;
+            submitbutton.Click += submitbutton_Click;
             // 
             // loginlink
             // 
@@ -213,14 +214,14 @@
             lblemail.TabIndex = 71;
             lblemail.Text = "E-mail";
             // 
-            // textBox3
+            // inputemail
             // 
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(714, 174);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(169, 20);
-            textBox3.TabIndex = 70;
+            inputemail.BorderStyle = BorderStyle.None;
+            inputemail.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            inputemail.Location = new Point(714, 174);
+            inputemail.Name = "inputemail";
+            inputemail.Size = new Size(169, 20);
+            inputemail.TabIndex = 70;
             // 
             // lblconfirmpassword
             // 
@@ -231,14 +232,14 @@
             lblconfirmpassword.TabIndex = 69;
             lblconfirmpassword.Text = "Confirm Password";
             // 
-            // textBox2
+            // inputconfirmpassword
             // 
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(546, 174);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(101, 20);
-            textBox2.TabIndex = 68;
+            inputconfirmpassword.BorderStyle = BorderStyle.None;
+            inputconfirmpassword.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            inputconfirmpassword.Location = new Point(546, 174);
+            inputconfirmpassword.Name = "inputconfirmpassword";
+            inputconfirmpassword.Size = new Size(101, 20);
+            inputconfirmpassword.TabIndex = 68;
             // 
             // lblpassword
             // 
@@ -322,14 +323,14 @@
             lblgender.TabIndex = 59;
             lblgender.Text = "Gender";
             // 
-            // comboBox1
+            // inputgender
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Male", "Female" });
-            comboBox1.Location = new Point(662, 71);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(83, 23);
-            comboBox1.TabIndex = 58;
+            inputgender.FormattingEnabled = true;
+            inputgender.Items.AddRange(new object[] { "Male", "Female" });
+            inputgender.Location = new Point(662, 71);
+            inputgender.Name = "inputgender";
+            inputgender.Size = new Size(83, 23);
+            inputgender.TabIndex = 58;
             // 
             // lblage
             // 
@@ -401,23 +402,23 @@
             lblmiddleinitial.TabIndex = 50;
             lblmiddleinitial.Text = "Middle Intital";
             // 
-            // textBox1
+            // inputmiddleinitial
             // 
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(504, 25);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 20);
-            textBox1.TabIndex = 49;
+            inputmiddleinitial.BorderStyle = BorderStyle.None;
+            inputmiddleinitial.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            inputmiddleinitial.Location = new Point(504, 25);
+            inputmiddleinitial.Name = "inputmiddleinitial";
+            inputmiddleinitial.Size = new Size(100, 20);
+            inputmiddleinitial.TabIndex = 49;
             // 
-            // Suffix
+            // inputsuffix
             // 
-            Suffix.FormattingEnabled = true;
-            Suffix.Items.AddRange(new object[] { "Jr.", "Sr." });
-            Suffix.Location = new Point(662, 24);
-            Suffix.Name = "Suffix";
-            Suffix.Size = new Size(83, 23);
-            Suffix.TabIndex = 48;
+            inputsuffix.FormattingEnabled = true;
+            inputsuffix.Items.AddRange(new object[] { "Jr.", "Sr." });
+            inputsuffix.Location = new Point(662, 24);
+            inputsuffix.Name = "inputsuffix";
+            inputsuffix.Size = new Size(83, 23);
+            inputsuffix.TabIndex = 48;
             // 
             // lblfirstname
             // 
@@ -476,9 +477,9 @@
             Controls.Add(lblincaseofemergency);
             Controls.Add(label2);
             Controls.Add(lblemail);
-            Controls.Add(textBox3);
+            Controls.Add(inputemail);
             Controls.Add(lblconfirmpassword);
-            Controls.Add(textBox2);
+            Controls.Add(inputconfirmpassword);
             Controls.Add(lblpassword);
             Controls.Add(passwordinput);
             Controls.Add(inputidnumber);
@@ -488,7 +489,7 @@
             Controls.Add(lblcurrentposition);
             Controls.Add(inputcurrentposition);
             Controls.Add(lblgender);
-            Controls.Add(comboBox1);
+            Controls.Add(inputgender);
             Controls.Add(lblage);
             Controls.Add(inputage);
             Controls.Add(lblbirthplace);
@@ -497,14 +498,15 @@
             Controls.Add(lblbirthdate);
             Controls.Add(lblsuffix);
             Controls.Add(lblmiddleinitial);
-            Controls.Add(textBox1);
-            Controls.Add(Suffix);
+            Controls.Add(inputmiddleinitial);
+            Controls.Add(inputsuffix);
             Controls.Add(lblfirstname);
             Controls.Add(inputfirstname);
             Controls.Add(lbllastname);
             Controls.Add(inputlastname);
             Name = "signupemployee";
             Text = "Employee Sign-up";
+            Load += signupemployee_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -526,9 +528,9 @@
         private Label lblincaseofemergency;
         private Label label2;
         private Label lblemail;
-        private TextBox textBox3;
+        private TextBox inputemail;
         private Label lblconfirmpassword;
-        private TextBox textBox2;
+        private TextBox inputconfirmpassword;
         private Label lblpassword;
         private TextBox passwordinput;
         private TextBox inputidnumber;
@@ -538,7 +540,7 @@
         private Label lblcurrentposition;
         private ComboBox inputcurrentposition;
         private Label lblgender;
-        private ComboBox comboBox1;
+        private ComboBox inputgender;
         private Label lblage;
         private TextBox inputage;
         private Label lblbirthplace;
@@ -547,8 +549,8 @@
         private Label lblbirthdate;
         private Label lblsuffix;
         private Label lblmiddleinitial;
-        private TextBox textBox1;
-        private ComboBox Suffix;
+        private TextBox inputmiddleinitial;
+        private ComboBox inputsuffix;
         private Label lblfirstname;
         private TextBox inputfirstname;
         private Label lbllastname;

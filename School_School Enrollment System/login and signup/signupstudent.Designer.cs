@@ -52,7 +52,7 @@
             inputidnumber = new TextBox();
             passwordinput = new TextBox();
             lblpassword = new Label();
-            textBox2 = new TextBox();
+            inputconfirmpassword = new TextBox();
             lblconfirmpassword = new Label();
             inputemail = new TextBox();
             lblemail = new Label();
@@ -265,6 +265,7 @@
             inputidnumber.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             inputidnumber.Location = new Point(139, 186);
             inputidnumber.Name = "inputidnumber";
+            inputidnumber.ReadOnly = true;
             inputidnumber.Size = new Size(108, 27);
             inputidnumber.TabIndex = 23;
             // 
@@ -286,14 +287,14 @@
             lblpassword.TabIndex = 25;
             lblpassword.Text = "Password";
             // 
-            // textBox2
+            // inputconfirmpassword
             // 
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(545, 188);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(101, 20);
-            textBox2.TabIndex = 26;
+            inputconfirmpassword.BorderStyle = BorderStyle.None;
+            inputconfirmpassword.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            inputconfirmpassword.Location = new Point(545, 188);
+            inputconfirmpassword.Name = "inputconfirmpassword";
+            inputconfirmpassword.Size = new Size(101, 20);
+            inputconfirmpassword.TabIndex = 26;
             // 
             // lblconfirmpassword
             // 
@@ -478,7 +479,7 @@
             Controls.Add(lblemail);
             Controls.Add(inputemail);
             Controls.Add(lblconfirmpassword);
-            Controls.Add(textBox2);
+            Controls.Add(inputconfirmpassword);
             Controls.Add(lblpassword);
             Controls.Add(passwordinput);
             Controls.Add(inputidnumber);
@@ -536,7 +537,7 @@
         private TextBox inputidnumber;
         private TextBox passwordinput;
         private Label lblpassword;
-        private TextBox textBox2;
+        private TextBox inputconfirmpassword;
         private Label lblconfirmpassword;
         private TextBox inputemail;
         private Label lblemail;
